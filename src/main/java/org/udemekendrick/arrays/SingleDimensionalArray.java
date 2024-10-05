@@ -42,4 +42,14 @@ public class SingleDimensionalArray {
             System.out.println("Array no longer exist!");
         }
     }
+
+    public void searchInArray(int valueToSearch) {
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == valueToSearch) {
+                System.out.println("Value found at the index of " + i);
+                return;
+            }
+        }
+        System.out.println(valueToSearch + " value is not found!");
+    }
 }

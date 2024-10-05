@@ -11,7 +11,7 @@ public class Main {
         array.insert(1, 4);
         array.insert(10, 5);
 
-        System.out.println("Array Traversal");
-        array.traverseArray();
+        System.out.println("Search in array!");
+        array.searchInArray(10);
     }
 }
