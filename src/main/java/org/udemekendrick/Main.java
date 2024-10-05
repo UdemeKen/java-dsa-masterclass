@@ -12,6 +12,6 @@ public class Main {
         array.insert(10, 5);
 
         System.out.println("Search in array!");
-        array.searchInArray(10);
+        array.deleteElement(1);
     }
 }

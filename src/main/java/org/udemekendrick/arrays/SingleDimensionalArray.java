@@ -52,4 +52,13 @@ public class SingleDimensionalArray {
         }
         System.out.println(valueToSearch + " value is not found!");
     }
+
+    public void deleteElement(int indexValueOfElement) {
+        try {
+            arr[indexValueOfElement] = Integer.MIN_VALUE;
+            System.out.println("Element of an array successfully deleted!");
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("Element to be deleted is not found!");
+        }
+    }
 }
