@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4784990-750b-44ca-b15f-ea73848ae2df" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/udemekendrick/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/udemekendrick/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/udemekendrick/arrays/SingleDimensionalArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/udemekendrick/arrays/SingleDimensionalArray.java" afterDir="false" />
-    </list>
+    <list default="true" id="b4784990-750b-44ca-b15f-ea73848ae2df" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
