@@ -1,5 +1,7 @@
 package org.udemekendrick.arrays.exercises;
 
+// Given a 2D array, calculate the sum of the diagonal elements.
+
 public class ExerciseTwo {
 
     public int sumDiagonalElements(int[][] array) {
