@@ -6,9 +6,9 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        ExerciseTen exerciseTen = new ExerciseTen();
+        ExerciseEleven exerciseEleven = new ExerciseEleven();
         int[] array = {4, 5, 6, 7, 9, 3, 8,};
-        String result = exerciseTen.maxProduct(array);
+        boolean result = exerciseEleven.isUnique(array);
         System.out.println(result);
     }
 }
