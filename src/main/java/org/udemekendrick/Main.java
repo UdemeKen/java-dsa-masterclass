@@ -1,12 +1,11 @@
 package org.udemekendrick;
 
-import org.udemekendrick.arrays.exercises.ExerciseFourteen;
-import org.udemekendrick.arrays.exercises.ExerciseThirteen;
+import org.udemekendrick.arrays.exercises.ExerciseFifteen;
 
 public class Main {
     public static void main(String[] args) {
-        ExerciseFourteen exerciseFourteen = new ExerciseFourteen();
+        ExerciseFifteen exerciseFifteen = new ExerciseFifteen();
         int[] array1 = {4, 5, 6, 7, 9, 3, 8,};
-        exerciseFourteen.sumProductOfArray(array1);
+        exerciseFifteen.printPairs(array1);
     }
 }
