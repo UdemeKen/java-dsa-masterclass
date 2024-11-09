@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4784990-750b-44ca-b15f-ea73848ae2df" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/udemekendrick/linkedList/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/udemekendrick/linkedList/singlyLinkedList/SinglyLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/udemekendrick/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/udemekendrick/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/udemekendrick/linkedList/singlyLinkedList/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/udemekendrick/linkedList/singlyLinkedList/SinglyLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +89,7 @@
       <workItem from="1729321731089" duration="2525000" />
       <workItem from="1730700779421" duration="16025000" />
       <workItem from="1730867410892" duration="7154000" />
-      <workItem from="1730897702843" duration="16470000" />
+      <workItem from="1730897702843" duration="19103000" />
     </task>
     <servers />
   </component>
