@@ -6,8 +6,9 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        QuestionNine questionNine = new QuestionNine();
-        int num = 5;
-        questionNine.generateFibonacci(num);
+        QuestionTen questionTen = new QuestionTen();
+        int[] num = {5, 1, 8, 4, 3, 7, 2};
+        questionTen.bubbleSortArray(num);
+        System.out.println(Arrays.toString(num));
     }
 }
