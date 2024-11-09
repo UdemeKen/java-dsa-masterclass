@@ -9,10 +9,11 @@ public class Main {
     public static void main(String[] args) {
         SinglyLinkedList singlyLinkedList = new SinglyLinkedList();
         singlyLinkedList.createSinglyLinkedList(1);
-        System.out.print(singlyLinkedList.head.value + " --> ");
         singlyLinkedList.insertInLinkedList(2, 1);
-        singlyLinkedList.insertInLinkedList(3, 3);
-        System.out.print(singlyLinkedList.head.next.value + " --> ");
-        System.out.println(singlyLinkedList.head.next.next.value);
+        singlyLinkedList.insertInLinkedList(3, 2);
+        singlyLinkedList.insertInLinkedList(4, 3);
+        singlyLinkedList.insertInLinkedList(5, 4);
+        singlyLinkedList.insertInLinkedList(6, 5);
+        singlyLinkedList.traverseSinglyLinkedList();
     }
 }
