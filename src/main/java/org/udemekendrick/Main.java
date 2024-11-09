@@ -15,6 +15,7 @@ public class Main {
         singlyLinkedList.insertInLinkedList(5, 4);
         singlyLinkedList.insertInLinkedList(6, 5);
         singlyLinkedList.traverseSinglyLinkedList();
-        System.out.println(singlyLinkedList.searchNode(6));
+        singlyLinkedList.deletionOfNode(1);
+        singlyLinkedList.traverseSinglyLinkedList();
     }
 }
