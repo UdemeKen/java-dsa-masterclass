@@ -1,4 +1,4 @@
-package org.udemekendrick.arrays.exercises;
+package org.udemekendrick.arrays.exercise;
 
 // How to find maximum product of two integers in the array where elements are positive.
 

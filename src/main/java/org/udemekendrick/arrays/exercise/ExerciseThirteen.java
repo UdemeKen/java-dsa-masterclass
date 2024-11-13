@@ -1,4 +1,4 @@
-package org.udemekendrick.arrays.exercises;
+package org.udemekendrick.arrays.exercise;
 
 // Given an image represented by NxN matrix write a method to rotate the image by 90 degrees.
 // You have to rotate the image in place, which means you have to modify the input 2D matrix directly.

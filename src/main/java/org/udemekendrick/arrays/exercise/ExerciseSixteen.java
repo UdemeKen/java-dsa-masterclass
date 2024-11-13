@@ -1,4 +1,4 @@
-package org.udemekendrick.arrays.exercises;
+package org.udemekendrick.arrays.exercise;
 
 // Create a method which takes an array as a parameter and reverse it.
 // Find the runtime of the created method?

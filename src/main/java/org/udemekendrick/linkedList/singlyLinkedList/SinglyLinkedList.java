@@ -7,9 +7,39 @@ public class SinglyLinkedList {
     public Node tail;
     public int size;
 
+    public Node getHead() {
+        return head;
+    }
+
+    public void setHead(Node head) {
+        this.head = head;
+    }
+
+    public Node getTail() {
+        return tail;
+    }
+
+    public void setTail(Node tail) {
+        this.tail = tail;
+    }
+
+    public int getSize() {
+        return size;
+    }
+
+    public void setSize(int size) {
+        this.size = size;
+    }
+
+    public SinglyLinkedList() {
+        this.head = null;
+        this.tail = null;
+        this.size = 0;
+    }
+
     public Node createSinglyLinkedList(int nodeValue) {
-        head = new Node();
-        Node node = new Node();
+        head = new Node(nodeValue);
+        Node node = new Node(nodeValue);
         node.next = null;
         node.value = nodeValue;
         head = node;
@@ -20,7 +50,7 @@ public class SinglyLinkedList {
 
 //    Insert Method in SinglyLinkedList
     public void insertInLinkedList(int nodeValue, int location) {
-        Node node = new Node();
+        Node node = new Node(nodeValue);
         node.value = nodeValue;
         if (head == null) {
             createSinglyLinkedList(nodeValue);

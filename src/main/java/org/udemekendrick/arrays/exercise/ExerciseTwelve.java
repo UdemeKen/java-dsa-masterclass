@@ -1,4 +1,4 @@
-package org.udemekendrick.arrays.exercises;
+package org.udemekendrick.arrays.exercise;
 
 // You're given two integer arrays. Write a program to check if they are permutation of each other
 

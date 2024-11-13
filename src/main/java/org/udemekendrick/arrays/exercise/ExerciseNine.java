@@ -1,4 +1,4 @@
-package org.udemekendrick.arrays.exercises;
+package org.udemekendrick.arrays.exercise;
 
 // Write a program to check if an array contains a number in java.
 

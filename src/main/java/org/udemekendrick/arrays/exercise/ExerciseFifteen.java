@@ -1,4 +1,4 @@
-package org.udemekendrick.arrays.exercises;
+package org.udemekendrick.arrays.exercise;
 
 // Create a function which prints to the console the pairs from given array.
 // Find the time complexity for created method

@@ -1,4 +1,4 @@
-package org.udemekendrick.arrays.exercises;
+package org.udemekendrick.arrays.exercise;
 
 // You are given an array "prices" where "price[i]" is the price of a given stock on the ith day. You want to maximize your profit by choosing a single day to buy
 // one stock and choosing a different day in the future to sell that stock. Return the maximum profit you can achieve from this transaction. If you can not achieve

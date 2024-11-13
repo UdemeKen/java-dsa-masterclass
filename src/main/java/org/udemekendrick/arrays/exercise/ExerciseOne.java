@@ -1,4 +1,4 @@
-package org.udemekendrick.arrays.exercises;
+package org.udemekendrick.arrays.exercise;
 
 // Write a function called middle that takes an array and returns a new array that contains all but the first and last elements.
 

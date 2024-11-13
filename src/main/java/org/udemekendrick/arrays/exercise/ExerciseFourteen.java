@@ -1,4 +1,4 @@
-package org.udemekendrick.arrays.exercises;
+package org.udemekendrick.arrays.exercise;
 
 // Create a function which calculate the sum and products of elements of array.
 // Find the time complexity for created method.

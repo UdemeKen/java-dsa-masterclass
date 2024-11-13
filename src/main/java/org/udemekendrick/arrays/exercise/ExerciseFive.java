@@ -1,4 +1,4 @@
-package org.udemekendrick.arrays.exercises;
+package org.udemekendrick.arrays.exercise;
 
 // Write a function which takes integer array as a parameter and returns a new integer array with unique elements. (remove duplicates)
 
