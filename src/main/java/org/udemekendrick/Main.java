@@ -1,15 +1,16 @@
 package org.udemekendrick;
 
+import org.udemekendrick.linkedList.exercise.InsertExercise;
 import org.udemekendrick.linkedList.exercise.PushExercise;
-import org.udemekendrick.linkedList.singlyLinkedList.SinglyLinkedList;
-import org.udemekendrick.topTenCodingQuestions.*;
-
-import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        PushExercise pushExercise = new PushExercise();
-        pushExercise.push(20);
-        System.out.println(pushExercise.head.value);
+        InsertExercise insertExercise = new InsertExercise();
+        insertExercise.insertSinglyLinkedList(10);
+        insertExercise.push(20);
+        insertExercise.push(30);
+        insertExercise.push(40);
+        insertExercise.push(50);
+        System.out.println(insertExercise.insert(5,0));
     }
 }
