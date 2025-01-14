@@ -1,17 +1,14 @@
 package org.udemekendrick;
 
-import org.udemekendrick.arrays.SingleDimensionalArray;
+import org.udemekendrick.linkedList.Node;
+import org.udemekendrick.linkedList.circularSinglyLinkedList.CircularSinglyLinkedList;
+import org.udemekendrick.linkedList.exercise.GetExercise;
 
 public class Main {
     public static void main(String[] args) {
-        SingleDimensionalArray array = new SingleDimensionalArray(5);
-        array.insert(0, 1);
-        array.insert(1, 2);
-        array.insert(2, 3);
-        array.insert(1, 4);
-        array.insert(10, 5);
-
-        System.out.println("Search in array!");
-        array.deleteElement(1);
+        CircularSinglyLinkedList csll = new CircularSinglyLinkedList(null, null);
+        csll.createCSLL(5);
+        System.out.println(csll.head.value);
+        System.out.println(csll.head.next.value);
     }
 }
