@@ -13,5 +13,6 @@ public class Main {
         csll.insertCSLL(2, 1);
         csll.insertCSLL(6, 5);
         csll.traverseCSLL();
+        csll.searchNode(8);
     }
 }
