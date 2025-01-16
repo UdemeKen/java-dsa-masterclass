@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
         CircularSinglyLinkedList csll = new CircularSinglyLinkedList(null, null);
         csll.createCSLL(5);
+        csll.insertCSLL(4, 0);
         System.out.println(csll.head.value);
-        System.out.println(csll.head.next.value);
     }
 }
