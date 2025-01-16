@@ -9,6 +9,9 @@ public class Main {
         CircularSinglyLinkedList csll = new CircularSinglyLinkedList(null, null);
         csll.createCSLL(5);
         csll.insertCSLL(4, 0);
-        System.out.println(csll.head.value);
+        csll.insertCSLL(3, 2);
+        csll.insertCSLL(2, 1);
+        csll.insertCSLL(6, 5);
+        csll.traverseCSLL();
     }
 }
