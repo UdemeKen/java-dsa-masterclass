@@ -13,7 +13,7 @@ public class Main {
         csll.insertCSLL(2, 1);
         csll.insertCSLL(6, 5);
         csll.traverseCSLL();
-        csll.deleteNode(1);
+        csll.deleteCSLL();
         csll.traverseCSLL();
     }
 }
