@@ -23,7 +23,7 @@ public class CircularSinglyLinkedList {
     }
 
     public Node createCSLL(int nodeValue) {
-        head = new Node(nodeValue);
+//        head = new Node(nodeValue);
         Node node = new Node(nodeValue);
         node.next = node;
         head = node;
